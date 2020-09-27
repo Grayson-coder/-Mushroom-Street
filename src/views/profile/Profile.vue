@@ -18,6 +18,7 @@ import ProfileMoney from './childProfile/ProfileMoney'
 import ProfileList from './childProfile/ProfileList'
 
 export default {
+    name: 'Profile',
     components: {
         NavBar,
         ProfileUserInfo,

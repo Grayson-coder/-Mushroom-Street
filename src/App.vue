@@ -1,12 +1,12 @@
 <template>
     <div>
         <!-- 根据路由展示不同组件 -->
-        <keep-alive include="Home,Category">
+        <keep-alive include="Home,Category,Profile">
             <router-view></router-view>
         </keep-alive>
         
         <!-- 最底部的选项卡 -->
-        <main-tab-bar></main-tab-bar>
+        <main-tab-bar />
         <!-- loading组件 -->
         <loading v-show="$store.state.loadingShow"></loading>
 

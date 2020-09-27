@@ -40,6 +40,8 @@ export default {
 
 <style scoped>
 #shop-cart .scroll {
+    position: fixed;
+    top: 44px;
     height: calc(100vh - 44px - 49px - 39px);
 }
 #shop-cart .nav-bar {

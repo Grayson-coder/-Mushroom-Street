@@ -190,23 +190,15 @@ export default {
 
 <style scoped>
 #home .nav-bar {
-    position: fixed;
-    top: 0;
-    z-index: 999;
+    height: 44px;
+    position: relative;
+    z-index: 9;
     width: 100vw;
 }
 
-#home .home-swiper {
-    margin-top: 44px;
-}
-#home .tab-control {
-    position: sticky;
-    top: 43px;
-    z-index: 200;
-}
-
 #home .scroll-wrap {
-    position: relative;
+    position: fixed;
+    top: 44px;
     height: calc(100vh - 93px);
 }
 
@@ -214,5 +206,6 @@ export default {
     position: absolute !important ;
     top: 44px !important;
     width: 100vw;
+    z-index: 101;
 }
 </style>

@@ -229,6 +229,8 @@ export default {
 }
 
 #detail .scroll {
+    position: fixed;
+    top: 44px;
     height: calc(100vh - 44px - 49px);
 }
 
