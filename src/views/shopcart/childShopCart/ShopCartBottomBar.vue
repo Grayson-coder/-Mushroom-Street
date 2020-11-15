@@ -1,5 +1,5 @@
 <template>
-    <div class="bottom-bar">
+    <div class="bottom-bar ignore">
         <div class="all-select" @click="allClick">
             <img src="../../../assets/img/cart/tick.svg" :class="{red: active}" /> 全选
         </div>

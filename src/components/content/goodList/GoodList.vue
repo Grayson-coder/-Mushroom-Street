@@ -7,7 +7,7 @@
             @click="goodListClick(items.iid)"
         >
             <!-- 商品图片 -->
-            <img :src="items.show ? items.show.img : items.image || items.img" @load="imgLoad" />
+            <img v-lazy="items.show ? items.show.img : items.image || items.img" @load="imgLoad" />
             <!-- 商品信息 -->
             <div class="info">
                 <p class="title">{{ items.title.substr(0, 12) }}...</p>
