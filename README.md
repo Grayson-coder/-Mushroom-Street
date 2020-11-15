@@ -27,3 +27,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+# 项目地址
+
+- 蘑菇街：http://www.timecrush.cn:8000/
