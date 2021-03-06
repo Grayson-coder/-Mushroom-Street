@@ -30,4 +30,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # 项目地址
 
-- 蘑菇街：http://www.timecrush.cn:8000/
+- 蘑菇街：http://www.timecrush.cn:8011/
